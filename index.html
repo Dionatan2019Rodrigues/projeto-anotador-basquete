@@ -5,10 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anotador de basquete</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 
 </head>
 <body>
-    <h1>Anotador de Basquete</h1>
+    <header>
+        <p>Anotador de basca</p>
+        <nav><p>Partidas anteriores</p></nav>
+    </header>
+    <main>
+        <section id="placar">
+            <img src="imagens/logo-aaae.jpeg" alt="equipe-da-casa" >
+            <span id="pontos-aaae">0</span>
+            <span>X</span>
+            <span id="pontos-visitantes">0</span>
+            <img src="imagens/logo-visitante.avif" alt="equipe-visitante" style="border: solid black 2px;">
+            
+        </section>
+        <section id="estatisticas">
+            <article class="botoes">
+                <p>
+                    <input type="button" value="- 3" class="red">
+                    <input type="button" value="+3" class="green">
+                </p>
+                <p>
+                    <input type="button" value="- 2" class="red">
+                    <input type="button" value="+2" class="green">
+                </p>
+                <p>
+                    <input type="button" value="- 1" class="red">
+                    <input type="button" value="+1" class="green">
+                </p>
+                <p>
+                    <input type="button" value="- 1" class="red">
+                    <input type="button" value="+1" class="green">
+                </p>
+                <p>
+                    <input type="button" value="- 1" class="red">
+                    <input type="button" value="+1" class="green">
+                </p>
+                <p>
+                    <input type="button" value="- 1" class="red">
+                    <input type="button" value="+1" class="green">
+                </p>
+            </article>
+            <article id="texto-central">
+                <p>Pontos</p>
+                <p>Pontos</p>
+                <p>Pontos</p>
+                <p>Rebotes</p>
+                <p>Arremessos de 3</p>
+                <p>Faltas Cometidas</p>
+            </article>
+            <article class="botoes">
+                <p>
+                    <input type="button" value="+3" class="green">
+                    <input type="button" value="- 3" class="red">
+                </p>
+                <p>
+                    <input type="button" value="+2" class="green">
+                    <input type="button" value="- 2" class="red">
+                </p>
+                <p>
+                    <input type="button" value="+1" class="green">
+                    <input type="button" value="- 1" class="red">
+                </p>
+                <p>
+                    <input type="button" value="+1" class="green">
+                    <input type="button" value="- 1" class="red">
+                </p>
+                <p>
+                    <input type="button" value="+1" class="green">
+                    <input type="button" value="- 1" class="red">
+                </p>
+                <p>
+                    <input type="button" value="+1" class="green">
+                    <input type="button" value="- 1" class="red">
+                </p>
+            </article>
+        </section>
+        <section id="res">
+            <p>Aguardando estatisticas</p>
+        </section>
+        <section id="fim-de-game">
+            <input type="button" value="Fim de Jogo">
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Dionatan Rodrigues</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
